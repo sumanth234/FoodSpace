@@ -137,7 +137,7 @@ export default class RestaurantProfile extends Component{
                             })}
                         </View>:<View />}
 
-                        </View>:<View ><Text>Menu Currently not available</Text></View>}
+                        </View>:<View style={{margin:20}}><Text>Menu Currently not available</Text></View>}
 
                     </View> 
                 </ScrollView>
