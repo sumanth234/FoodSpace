@@ -92,7 +92,7 @@ class RestaurantList extends Component{
                         <View style={{flexDirection:'row',borderWidth:1,borderTopWidth:0,backgroundColor:'white'}}>
                     <View style={{flex:2,margin:20}}>
                         <Text style={{textAlign:'left',flex:1,fontWeight:'bold',fontSize:20}}>{value.name}</Text>
-                        <Text style={{textAlign:'left',flex:1,fontSize:12}}>{parseInt(value.dist)} NMiles away</Text>
+                        <Text style={{textAlign:'left',flex:1,fontSize:12}}>{parseInt(value.dist)} Kms away</Text>
                         </View>
                         <TouchableOpacity style={{flex:1,margin:20,justifyContent:'center'}} onPress = {() => Linking.canOpenURL("'tel:" + value.contact + "'").then(supported => {
             if (!supported) {
