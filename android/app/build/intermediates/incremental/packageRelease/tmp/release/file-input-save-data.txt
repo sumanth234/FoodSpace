@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu Oct 11 13:24:19 IST 2018
+#Thu Oct 11 13:30:17 IST 2018
 5.base=/home/sumanth/FoodSpace/android/app/build/intermediates/transforms/mergeJniLibs/release/0
 42.base=/home/sumanth/FoodSpace/android/app/build/intermediates/transforms/dexMerger/release/0
 22.path=lib/armeabi-v7a/libreactnativejni.so
