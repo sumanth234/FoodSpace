@@ -14,16 +14,12 @@ const RestaurantStack = StackNavigator(
       name: "RestaurantListScreen",
       description: "RestaurantListScreen",
       screen: RestaurantListScreen,
-      navigationOptions: {
-        title: "RestaurantListScreen"
-      }
     },
     RestaurantProfileScreen: {
       name: "RestaurantProfileScreen",
       description: "RestaurantProfileScreen",
       screen: RestaurantProfileScreen,
       navigationOptions: {
-        //title: "RestaurantProfileScreen",
         headerTintColor: "black"
       }
     },
